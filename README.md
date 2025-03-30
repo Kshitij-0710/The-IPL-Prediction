@@ -1,22 +1,8 @@
-Below is an example README in Markdown format that you can use for your GitHub repository:
 
 ---
-
 # IPL Match Prediction Pipeline
 
 This repository contains a complete data science project for predicting IPL match outcomes using ball-by-ball data. The project includes data preprocessing, feature engineering, dimensionality reduction with PCA, and model training with XGBoost. Additionally, the code provides comprehensive visualizations for performance metrics and correlation analyses.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Results & Visualizations](#results--visualizations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -41,7 +27,7 @@ This approach helps in understanding the key factors influencing match outcomes 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ipl-match-prediction.git
+   https://github.com/Kshitij-0710/The-IPL-Prediction/tree/main
    cd ipl-match-prediction
    ```
 
@@ -51,10 +37,6 @@ This approach helps in understanding the key factors influencing match outcomes 
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -81,8 +63,6 @@ This approach helps in understanding the key factors influencing match outcomes 
 ├── ipl.csv                     # IPL ball-by-ball data
 ├── your_script.py              # Main pipeline script containing all functions
 ├── README.md                   # Project documentation (this file)
-├── requirements.txt            # List of required Python libraries
-└── images/                     # Folder (optional) for saving generated visualizations
 ```
 
 ## Dependencies
@@ -110,11 +90,5 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 - Fork the repository.
 - Create a new branch for your changes.
 - Submit a pull request with a detailed explanation of your modifications.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
-Feel free to customize this README according to your project's specifics, including any additional instructions or details relevant to your analysis and code.
